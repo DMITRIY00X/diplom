@@ -3,20 +3,15 @@
     /* margin-top: 50px; */
     padding-bottom: 50px;
     padding-top: 40px;
+    /* display: flex; */
+    
 }
 
-.projects h2{
-   font-size: 30px; 
+.projects h2 {
+    font-size: 30px;
 }
 
-.project-list {
-    /* background-color: white; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 50px;
 
-}
 
 .progect-blocks {
     /* background-color: rgba(255, 255, 255, 0.347);
@@ -25,10 +20,30 @@
     margin-bottom: 10px;
     border-radius: 15px; */
 
-    width: 300px;
+    /* width: 100px; */
     border: 1px solid rgba(0, 0, 0, .1);
-    padding: 25px;
+    /* padding: 25px; */
     margin-top: 25px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
     border-radius: 15px;
+    
+
+
+}
+
+.project-element-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.presentation {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
 }

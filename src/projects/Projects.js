@@ -1,47 +1,33 @@
 
 import "./Projects.css";
-function Projects() {
+import "./appicon.png";
+function Projects(props) {
+    let { elem } = props;
     return (
         <div className="projects">
             <h2>Мои проекты</h2>
-            <div className="project-list">
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                </div>
-                <div className="progect-blocks">
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
+            <div className="project-blocks">
+                <div className="project-element-blocks"> 
+                    {
+                        Object.keys(elem).map(el => {
+                            return (
+                                <div className="presentation">
+                                    <div className="name">
+                                        {elem[el].name} {elem[el].type}
+                                        <div>
+                                            <img src={elem[el].photo} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="year">
+                                        {elem[el].year}
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
+
         </div>
     )
 }

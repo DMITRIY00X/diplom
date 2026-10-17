@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './app/App';
+import elements from './elements.json';
+
+let elem = elements.presentation;
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className="wrap">
-      <App />
+      <App elem = {elem} />
     </div>
   </React.StrictMode>
 );

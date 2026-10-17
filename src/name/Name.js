@@ -3,7 +3,7 @@ import "./Name.css";
 function Name() {
     return (
         <div className="wrap">
-            <div className="name">
+            <div className="name-block">
                 <div className="name-common">
                     {/* <div className="photo">
                         < img src={photo} alt="" />

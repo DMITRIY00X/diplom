@@ -5,13 +5,15 @@ import Name from '../name/Name';
 import Footer from '../footer/Footer';
 import Projects from '../projects/Projects';
 import Site from '../site/Site';
-function App() {
+
+function App(props) {
+  let { elem } = props;
   return (
     <div className="App">
       <Header />
       <Name />
       <Main />
-      <Projects />
+      <Projects elem={elem} />
       <Site />
       <Footer />
     </div>

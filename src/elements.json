@@ -1,0 +1,61 @@
+{
+  "presentation": [
+    {
+      "name": "Змейка",
+      "photo": "https://zagorskaya.info/wp-content/uploads/2019/01/a6427fb30585c0238b62b85309329928-e1546554586378.png",
+      "type": "Видеоигра",
+      "year": "Игра создана в 2026 году"
+      
+    },
+    {
+      "name": "Тетрис",
+      "type": "Видеоигра",
+      "year": "Игра создана в 2026 году",
+      "photo": "https://trashbox.ru/apk_icons/topic_210338_256.png?1780527870"
+      
+    },
+    {
+      "name": "Кто хочет стать миллионером",
+      "type": "Видеоигра",
+      "year": "Игра создана в 2026 году",
+      "photo": "https://images.meme-arsenal.com/7e1821668a1b9417f7f4a8d858a06197.jpg"
+    },
+    {
+      "name": "Фильмы",
+      "type": "и сериалы",
+      "year": "Сайт создан в 2026 году",
+      "photo": "https://avatars.mds.yandex.net/i?id=80b7c1e372fd2f3862b07a86835b4f9162cd7c00-5315578-images-thumbs&n=13"
+    },
+    {
+      "name": "Сайт",
+      "type": "на HTML",
+      "year": "Сайт создан в 2025 году",
+      "photo": "https://www.shutterstock.com/image-vector/website-vector-icon-www-illustration-260nw-2439386945.jpg"
+    },
+    {
+      "name": "Сайт",
+      "type": "на javaScript",
+      "year": "Сайт создан в 2026 году",
+      "photo": "https://i.taplink.st/a/3/3/5/4/dc0144.jpg?1"
+    },
+    {
+      "name": "Калькулятор",
+      "type":"javaScript",
+      "year": "Страница создана в 2026 году",
+      "photo": "https://i.pinimg.com/236x/bf/fa/88/bffa88cd9b968d998d90e8765756c8c0.jpg?nii=t"
+    },
+    {
+      "name": "Книга",
+      "type": "javaScript",
+      "year": "Страница создана в 2026 году",
+      "photo": "https://i.pinimg.com/236x/85/62/40/856240211128099d752ca4241efaa713.jpg"
+    },
+    {
+      "name": "Форма регистрации",
+      "type": "javaScript",
+      "year": "Страница создана в 2026 году",
+      "photo": "https://i.pinimg.com/236x/25/47/bb/2547bbb007656002596fdfe6acc2ea62.jpg?nii=t"
+    }
+    
+  ]
+}
