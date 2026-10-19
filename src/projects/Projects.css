@@ -27,8 +27,10 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
     border-radius: 15px;
     
+}
 
-
+.presentation:hover{
+    background-color: rgba(192, 192, 192, 0.452);
 }
 
 .project-element-blocks{

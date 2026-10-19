@@ -1,0 +1,47 @@
+{
+    "categories": [
+        {
+            "name": "Все"
+        },
+        {
+            "name": "Природа"
+        },
+        {
+            "name": "Архитектура"
+        },
+        {
+            "name": "Вода"
+        },
+        {
+            "name": "Фауна"
+        }
+    ],
+    "collections": [
+        {
+            "category": 1,
+            "name": "Слайдер",
+            "photos": [
+                {   
+                    "original":"https://image.fonwall.ru/o/yi/arch-neural-network-rendering.jpeg?auto=compress&fit=resize&w=1200&display=large&domain=img3.fonwall.ru",
+                    "thumbnail":"https://image.fonwall.ru/o/yi/arch-neural-network-rendering.jpeg?auto=compress&fit=resize&h=282&w=500&display=thumb&domain=img3.fonwall.ru"
+                },
+                {
+                    "original":"https://image.fonwall.ru/o/he/neural-network-rendering-nature-fsow.jpeg?auto=compress&fit=resize&w=1200&display=large&domain=img3.fonwall.ru",
+                    "thumbnail":"https://image.fonwall.ru/o/he/neural-network-rendering-nature-fsow.jpeg?auto=compress&fit=resize&h=282&w=500&display=thumb&domain=img3.fonwall.ru"
+                },
+                {
+                    "original":"https://image.fonwall.ru/o/le/einkehr-nature-lamdscapes-florals.jpeg?auto=compress&fit=resize&w=1200&display=large&domain=img3.fonwall.ru",
+                    "thumbnail":"https://image.fonwall.ru/o/le/einkehr-nature-lamdscapes-florals.jpeg?auto=compress&fit=resize&h=282&w=500&display=thumb&domain=img3.fonwall.ru"
+                },
+                {
+                    "original":"https://image.fonwall.ru/o/zd/pillows-plaid-window.jpeg?auto=compress&fit=resize&w=1200&display=large&domain=img3.fonwall.ru",
+                    "thumbnail":"https://image.fonwall.ru/o/zd/pillows-plaid-window.jpeg?auto=compress&fit=resize&h=286&w=500&display=thumb&domain=img3.fonwall.ru"
+                },
+                {
+                    "original":"https://image.fonwall.ru/o/nv/weeping-willow-river-sunset.jpeg?auto=compress&fit=resize&w=1200&display=large&domain=img3.fonwall.ru",
+                    "thumbnail":"https://image.fonwall.ru/o/nv/weeping-willow-river-sunset.jpeg?auto=compress&fit=resize&h=286&w=500&display=thumb&domain=img3.fonwall.ru"
+                }
+            ]
+        }       
+    ]
+}

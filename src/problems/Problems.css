@@ -1,0 +1,61 @@
+.problems {
+    background: silver;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    /* display: flex; */
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.problem-block {
+    width: 500px;
+    height: 500px;
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+
+}
+
+.problem-block li {
+    text-align: left;
+}
+
+.problem-rightBtn {
+    position: absolute;
+    top: 40%;
+    right: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+.problem-leftBtn {
+    position: absolute;
+    top: 40%;
+    left: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+
+.difficulties{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
