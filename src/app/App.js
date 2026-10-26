@@ -16,8 +16,8 @@ function App(props) {
       <Name />
       <Main />
       <Projects elem={elem} />
-      <Problems dif={dif} />
       <Slider/>
+      <Problems dif={dif} />
       <Site />
       <Footer />
     </div>

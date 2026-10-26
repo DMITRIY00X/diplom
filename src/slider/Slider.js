@@ -4,6 +4,7 @@ import "./Slider.css";
 import data from "./data.json";
 
 
+
 function Slider() {
     const collections = data.collections;
     return (

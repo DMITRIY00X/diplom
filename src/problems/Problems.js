@@ -1,5 +1,6 @@
 import "./Problems.css";
 
+
 function Problems(props) {
     let { dif } = props;
     return (
@@ -26,8 +27,12 @@ function Problems(props) {
                                 <div className="difficulties">
                                     <div className="name">
                                         {dif[d].name} {dif[d].type}
-                                        <div>
-                                            {dif[d].description}
+                                        <div className="problems-description" >
+                                            {dif[d].description.one}
+                                            {dif[d].description.two}
+                                            {dif[d].description.three}
+                                            {dif[d].description.four}
+                                            {dif[d].description.five}
                                         </div>
                                     </div>
                                     <div className="year">
