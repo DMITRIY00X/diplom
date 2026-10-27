@@ -1,8 +1,48 @@
-
-
-.footer{
+.footer {
     background: rgba(0, 0, 0, 0.339);
     color: white;
     padding: 20px;
     margin-bottom: 50px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-vk {
+    width: 32px;
+    height: 32px;
+    background: url(iconVk.png);
+
+}
+
+.footer-telegram {
+    width: 32px;
+    height: 32px;
+    background: url(telegram.png);
+}
+
+.footer-whatsapp {
+    width: 32px;
+    height: 32px;
+    background: url(whatsapp.png);
+}
+
+.footer-iconsBlock {
+    display: flex;
+}
+.footer-iconsBlock2 {
+    display: flex;
+}
+
+.footer-youtube {
+    width: 32px;
+    height: 32px;
+    background: url(YouTube.png);
 }

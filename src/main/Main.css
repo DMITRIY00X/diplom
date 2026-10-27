@@ -1,21 +1,33 @@
 .main {
-    background-color: rgba(215, 196, 196, 0.574);
+    /* background-color: rgb(215, 196, 196); */
     padding: 20px;
     text-align: left;
-    /* display: flex; */
+    display: flex;
     /* justify-content: space-between; */
     max-width: 1140px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
     border-radius: 15px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
     margin-bottom: 40px;
-    background-image: url(office.png);
     background-size: cover;
-    height: 400px;
+    /* height: 400px; */
     color: rgb(61, 3, 73);
     font-weight: bold;
 }
+.main-header{
+    /* background-image: url(office.png); */
+    background-size: cover;
+    max-width: 70%;
+    max-height: 100%;
+    padding-bottom: 100px;
+    border-radius: 15px;
+}
+
+.main-header img{
+    border-radius: 15px;
+}
+
 
 .main h2 {
     text-align: center;
@@ -37,7 +49,7 @@
 }
 
 .menu-blocks {
-    background-color: rgba(73, 107, 199, 0.39);
+    /* background-color: rgba(73, 107, 199, 0.39); */
     margin: 5px;
     /* width: 300px;
     height: 500px; */
@@ -68,4 +80,31 @@
 
 .main-header p{
     font-size: larger;
+}
+
+.main-aboutMe{
+    padding-left: 10px;
+    /* border: 1px solid; */
+    margin-left: 10px;
+    
+}
+
+.main-aboutMe h3{
+    font-size: 14px;
+}
+
+.main-aboutMe h2{
+    text-align: left;
+}
+
+.main-aboutMe p{
+    font-size: 12px;
+}
+
+.main-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
 }

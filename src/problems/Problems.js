@@ -19,29 +19,39 @@ function Problems(props) {
              <button className="problem-rightBtn">&gt;</button>
              <button className="problem-leftBtn">&lt;</button> */}
 
-             <h2>Трудности при создании проектов</h2>
+            <h2>Трудности при создании проектов</h2>
 
-{
-                        Object.keys(dif).map(d => {
-                            return (
-                                <div className="difficulties">
-                                    <div className="name">
-                                        {dif[d].name} {dif[d].type}
-                                        <div className="problems-description" >
-                                            {dif[d].description.one}
-                                            {dif[d].description.two}
-                                            {dif[d].description.three}
-                                            {dif[d].description.four}
-                                            {dif[d].description.five}
-                                        </div>
+            {
+                Object.keys(dif).map(d => {
+                    return (
+                        <div className="difficulties">
+                            <div className="name">
+                                {dif[d].name} {dif[d].type}
+                                <div className="problems-description">
+                                    <div>
+                                        {dif[d].description.one}
                                     </div>
-                                    <div className="year">
-                                        {dif[d].year}
+                                    <div>
+                                        {dif[d].description.two}
+                                    </div>
+                                    <div>
+                                        {dif[d].description.three}
+                                    </div>
+                                    <div>
+                                        {dif[d].description.four}
+                                    </div>
+                                    <div>
+                                        {dif[d].description.five}
                                     </div>
                                 </div>
-                            )
-                        })
-                    }
+                            </div>
+                            <div className="year">
+                                {dif[d].year}
+                            </div>
+                        </div>
+                    )
+                })
+            }
 
         </div>
     )

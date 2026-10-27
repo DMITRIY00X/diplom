@@ -7,6 +7,7 @@ import Projects from '../projects/Projects';
 import Site from '../site/Site';
 import Problems from '../problems/Problems';
 import Slider from '../slider/Slider';
+import Skills from '../skills/Skills';
 
 function App(props) {
   let { elem, dif } = props;
@@ -15,6 +16,7 @@ function App(props) {
       <Header />
       <Name />
       <Main />
+      <Skills/>
       <Projects elem={elem} />
       <Slider/>
       <Problems dif={dif} />

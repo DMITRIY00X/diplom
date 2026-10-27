@@ -1,5 +1,5 @@
 .header {
-    background-color: rgba(0, 0, 0, 0.502); 
+    background-color: rgba(0, 0, 0, 0.502);
     color: white;
     text-align: left;
     padding: 20px;
@@ -10,7 +10,7 @@
     /* background-image:url('5.png');
     background-size: cover;
     padding-bottom: 500px; */
-
+    border-radius: 15px;
     margin-bottom: 50px;
 }
 
