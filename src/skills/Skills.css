@@ -1,7 +1,9 @@
 .skills {
-    background: white;
+    background: rgba(66, 128, 149, 0.181);
     margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .skills-slider {
@@ -12,9 +14,30 @@
     text-align: left;
     padding: 10px;
     border-radius: 15px;
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .skills-slider h3 {
     text-align: center;
+}
+
+.skills-btn__left {
+    padding: 40px 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+
+.skills-btn__right {
+    padding: 40px 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    right: 23%;
+
 }

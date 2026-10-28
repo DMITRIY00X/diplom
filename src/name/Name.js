@@ -3,17 +3,11 @@ import "./Name.css";
 function Name() {
     return (
         <div className="wrap">
+            <div className="name-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae nam libero, autem cum enim officia quam aperiam cumque sint dicta doloribus exercitationem, nesciunt quia esse ipsum voluptas ad et?
+            </div>
             <div className="name-block">
-                <div className="name-common">
-                    {/* <div className="photo">
-                        < img src={photo} alt="" />
-                    </div> */}
-                    <div className="name-header">
-                        <h2>Меня зовут Дмитрий</h2>
-                        <h3>Я начинающий Frontend разработчик</h3>
-                    </div>
-                </div>
-                <a href="">Мое резюме</a>
+                <button>Мое резюме</button>
             </div>
         </div>
 

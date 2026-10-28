@@ -24,6 +24,8 @@ function Skills() {
                     <li>Работа с макетами(Figma,Picso)</li>
                 </ul>
             </div>
+            <button className="skills-btn__left">&lt;</button>
+            <button className="skills-btn__right">&gt;</button>
         </div>
     )
 }
