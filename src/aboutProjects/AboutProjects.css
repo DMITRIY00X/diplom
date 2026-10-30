@@ -1,0 +1,14 @@
+
+
+.aboutProjects{
+    background-color: aliceblue;
+    
+}
+
+.aboutProjects-elements{
+    border: 1px solid;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 5px;
+}

@@ -9,7 +9,7 @@ function Header() {
                 <div className="header-menu">
                     <a href="">Игры</a>
                     <a href="">Сайты</a>
-                    <a href="">Все проекты</a>
+                    <a href="">Описание проектов</a>
                 </div>
             </div>
         </div>
