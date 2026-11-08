@@ -9,6 +9,7 @@ import Problems from '../problems/Problems';
 import Slider from '../slider/Slider';
 import Skills from '../skills/Skills';
 import AboutProjects from '../aboutProjects/AboutProjects';
+import Contact from '../contact/Contact';
 
 function App(props) {
   let { elem, dif } = props;
@@ -22,6 +23,7 @@ function App(props) {
       <AboutProjects/>
       <Slider/>
       <Problems dif={dif} />
+      <Contact/>
       <Site />
       <Footer />
     </div>

@@ -4,7 +4,7 @@ function Name() {
     return (
         <div className="wrap">
             <div className="name-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae nam libero, autem cum enim officia quam aperiam cumque sint dicta doloribus exercitationem, nesciunt quia esse ipsum voluptas ad et?
+                «Добро пожаловать на мой сайт! Здесь я делюсь тем, что по-настоящему люблю и в чём разбираюсь. Ты найдёшь полезные материалы, интересные подборки и идеи, которые помогут двигаться вперёд. Если что-то хочется обсудить или есть вопрос — я здесь. Спасибо, что заглянул!»
             </div>
             <div className="name-block">
                 <button>Мое резюме</button>
