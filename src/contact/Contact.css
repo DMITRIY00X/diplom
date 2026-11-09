@@ -2,7 +2,20 @@
     background: url(officeBack.jpg);
     padding-top: 20px;
     padding-bottom: 70px;
-    color: white;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.contact_background{
+    background: rgba(255, 255, 255, 0.355);
+    padding: 5px;
+    border-radius: 15px;
 }
