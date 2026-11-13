@@ -3,22 +3,22 @@
     {
       "name": "Змейка",
       "photo": "https://zagorskaya.info/wp-content/uploads/2019/01/a6427fb30585c0238b62b85309329928-e1546554586378.png",
-      "type": "Видеоигра",
+      "type": "",
       "year": "Игра создана в 2026 году",
-      "link": ""
+      "link": "https://dmitriy00x.github.io/Snake/snake.html"
       
     },
     {
       "name": "Тетрис",
-      "type": "Видеоигра",
+      "type": "",
       "year": "Игра создана в 2026 году",
       "photo": "https://trashbox.ru/apk_icons/topic_210338_256.png?1780527870",
-      "link": ""
+      "link": "https://dmitriy00x.github.io/tetris/tetris2.html"
       
     },
     {
       "name": "Кто хочет стать миллионером",
-      "type": "Видеоигра",
+      "type": "",
       "year": "Игра создана в 2026 году",
       "photo": "https://images.meme-arsenal.com/7e1821668a1b9417f7f4a8d858a06197.jpg",
       "link": ""
@@ -31,35 +31,35 @@
       "link": "https://dmitriy00x.github.io/hometask6/"
     },
     {
-      "name": "Сайт",
-      "type": "на HTML",
+      "name": "Многостраничный сайт (Food)",
+      "type": "на React",
       "year": "Сайт создан в 2025 году",
       "photo": "https://www.shutterstock.com/image-vector/website-vector-icon-www-illustration-260nw-2439386945.jpg",
       "link": ""
     },
     {
-      "name": "Сайт",
-      "type": "на javaScript",
+      "name": "Детские игрушки",
+      "type": "Сайт на TypeScript",
       "year": "Сайт создан в 2026 году",
       "photo": "https://i.taplink.st/a/3/3/5/4/dc0144.jpg?1",
       "link": ""
     },
     {
-      "name": "Калькулятор",
-      "type":"javaScript",
+      "name": "Моя коллекция фотографий",
+      "type":"Сайт на React",
       "year": "Страница создана в 2026 году",
       "photo": "https://i.pinimg.com/236x/bf/fa/88/bffa88cd9b968d998d90e8765756c8c0.jpg?nii=t",
       "link": ""
     },
     {
-      "name": "Игра поймай кружок (Игра на скорость реакции)",
-      "type": "javaScript",
+      "name": "Игра поймай квадрат",
+      "type": "",
       "year": "Страница создана в 2026 году",
       "photo": "https://i.pinimg.com/236x/da/c8/96/dac8965a410040dab29cb5318bdec30d.jpg?nii=t",
-      "link": ""
+      "link": "https://dmitriy00x.github.io/gameSpeed/hometask_js_34.html"
     },
     {
-      "name": "Форма регистрации",
+      "name": "Крестики нолики",
       "type": "javaScript",
       "year": "Страница создана в 2026 году",
       "photo": "https://i.pinimg.com/236x/25/47/bb/2547bbb007656002596fdfe6acc2ea62.jpg?nii=t",

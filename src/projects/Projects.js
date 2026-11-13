@@ -1,26 +1,28 @@
 
 import "./Projects.css";
 import "./appicon.png";
+import { Link } from "react-router-dom";
+
+
 function Projects(props) {
     let { elem } = props;
     return (
         <div className="projects">
             <h2>Мои проекты</h2>
             <div className="project-blocks">
-                <div className="project-element-blocks"> 
+                <div className="project-element-blocks" >
                     {
                         Object.keys(elem).map(el => {
                             return (
                                 <div className="presentation">
-                                    <div className="name">
-                                        {elem[el].name} {elem[el].type}
-                                        <div>
-                                            <img src={elem[el].photo} alt="" />
+                                    <Link to={elem[el].link}>
+                                        <div className="name">
+                                            {elem[el].name} {elem[el].type}
+                                            <div>
+                                                <img src={elem[el].photo} alt="" />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="year">
-                                        {elem[el].year}
-                                    </div>
+                                    </Link>
                                 </div>
                             )
                         })
@@ -28,7 +30,7 @@ function Projects(props) {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

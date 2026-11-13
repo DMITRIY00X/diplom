@@ -11,6 +11,16 @@ import Skills from '../skills/Skills';
 import AboutProjects from '../aboutProjects/AboutProjects';
 import Contact from '../contact/Contact';
 
+
+// import { Routes, Route } from 'react-router-dom';
+// import DescriptionPage from '../pages/DescriptionPage';
+// import GamesPage from '../pages/GamesPage';
+// import MainPage from '../pages/MainPage';
+// import SitePage from '../pages/SitePage';
+
+
+
+
 function App(props) {
   let { elem, dif } = props;
   return (
